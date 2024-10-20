@@ -1,11 +1,13 @@
 :root {
-    --gray:#333 ;
---button: rgb(46, 46, 198);
+    --gray:#2F303A;
+--button: #2196F3;
 --white: rgb(255, 255, 255);
 }
-header{color: rgb(255, 255, 255);}
+header{color: #FFFFFF;}
 
-
+body{
+  font-family: "Roboto";
+}
 
 
 .section-button{
@@ -17,7 +19,7 @@ font-weight: 700;
 
 }
 
-.logo-header{ color: black;
+.logo-header{ color:#000000;
   font-size: 23px; 
   line-height: 1.2;
   text-decoration: none; 
@@ -32,7 +34,7 @@ font-weight: 700;
 
 
 h1{
-color: rgb(255, 255, 255);
+color: #FFFFFF;
 font-size: 44px;
 line-height: 1.4;
 font-weight: 900;
@@ -41,7 +43,7 @@ text-align: center;
 
 
 button{background-color: var(--button);
-    color: aliceblue;
+    color:#FFFFFF;
     font-size: 24px;
   }
 
@@ -56,7 +58,7 @@ color: black;
 
 
 .about-regulations{
-color: grey;
+color: #757575;
   font-size: 14px;
   line-height: 1.7;
   font-weight: 400;
